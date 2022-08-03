@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "start": "node .output/server/index.mjs"
+  },
+  "dependencies": {
+    "graphql": "16.5.0"
+  },
+  "devDependencies": {
+    "nuxt": "3.0.0-rc.6"
+  }
+}
